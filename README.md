@@ -21,12 +21,6 @@ Assim, surge a ideia do **AmpliFocus**, um programa de produtividade, livre de d
 - Realize sessões de foco (ex: pomodoro) livre de distrações e amplifique o seu foco.
 - Remova distrações, pausando notificações indesejadas durante suas sessões
 
-## Focus Groups
-
-- Crie grupos de foco com seus colegas e amigos
-- Agende sessões de foco e de produtividade com seus colegas
-- Compartilhe resumos
-
 ## Social Network
 
 - Compartilhe com seus seguidores seu progresso diário!
