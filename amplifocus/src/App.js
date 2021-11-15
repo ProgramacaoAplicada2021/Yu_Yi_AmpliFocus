@@ -53,7 +53,7 @@ function App() {
   return (
     <div className="container">
       <Header
-        title="Task Tracker"
+        title="AmpliFocus"
         onAdd={() => setShowAddTask(!showAddTask)}
         showAdd={showAddTask}
       />
