@@ -29,16 +29,16 @@ export const AddTask = ({ onAdd }) => {
         ></input>
       </div>
       <div className="form-control">
-        <label>Day & Time</label>
+        <label>Description</label>
         <input
           type="text"
-          placeholder="Add Day & Time"
+          placeholder="Add Description"
           value={description}
           onChange={(e) => setDescription(e.target.value)}
         ></input>
       </div>
       <div className="form-control form-control-check">
-        <label>Set Reminder</label>
+        <label>Completed</label>
         <input
           type="checkbox"
           value={completed}
