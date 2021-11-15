@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+# Getting Started with tutorial_react
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+To use this project you need to install NodeJs:
+
+### `https://nodejs.org/en/`
+
+Then, go to your **tutorial_react** folder and install the project dependencies:
+
+### `npm install`
 
 ## Available Scripts
 
