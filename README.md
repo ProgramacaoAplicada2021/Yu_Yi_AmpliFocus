@@ -14,6 +14,12 @@ Diversos são os livros de autoajuda, canais no YouTube, perfis no Instagram e n
 
 Assim, surge a ideia do **AmpliFocus**, um programa de produtividade, livre de distrações, que também é uma rede social. Nele, você impulsiona sua produtividade e compartilha seu progresso com seus amigos e colegas, garantido a motivação conjunta de todos.
 
+# Biblioteca Gráfica
+
+Para o desenvolvimento do frontend da plataforma foi escolhido o **ReactJS**. 
+
+ReactJS é uma das bibliotecas preferidas pelos desenvolvedores frontend, devido a sua flexibilidade, componentização e vasta comunidade. Plataformas como Facebook, Instagram e Reddit foram desenvolvidas com ReactJS.
+
 # Principais Funcionalidades
 
 ## Focus Sessions
