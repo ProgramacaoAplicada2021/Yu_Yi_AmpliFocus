@@ -21,7 +21,8 @@ function App() {
       completed: true,
     },
   ]);
-
+  const authString =
+    "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6Inl1eWkiLCJleHAiOjE2Mzc1MjI4MzksImVtYWlsIjoieXV5aXdhbmd4aWFAZ21haWwuY29tIiwib3JpZ19pYXQiOjE2MzczNTAwMzl9.Ow6aTdUAZ6RcOennG8DUF4IZ6kO4syz72SVXAOiHAH0";
   //Add Task
   const addTask = (task) => {
     console.log(task);
@@ -29,7 +30,9 @@ function App() {
     const newTask = { id, ...task };
     setTasks([...tasks, newTask]);
     axios
-      .post("http://localhost:8000/api/todos/", task)
+      .post("http://localhost:8000/api/todos/", task, {
+        headers: { Authorization: authString },
+      })
       .then((res) => getPosts());
   };
 
@@ -38,7 +41,9 @@ function App() {
     //console.log("delete" + id);
     setTasks(tasks.filter((task) => task.id !== id));
     axios
-      .delete(`http://localhost:8000/api/todos/${id}/`)
+      .delete(`http://localhost:8000/api/todos/${id}/`, {
+        headers: { Authorization: authString },
+      })
       .then((res) => getPosts());
   };
 
@@ -52,7 +57,10 @@ function App() {
   };
 
   const getPosts = async () => {
-    const response = await axios.get("http://localhost:8000/api/todos/");
+    const response = await axios.get("http://127.0.0.1:8000/api/todos/", {
+      headers: { Authorization: authString },
+    });
+    console.log(response);
     const postsData = await response.data;
     setTasks(postsData);
   };
