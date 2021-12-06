@@ -30,7 +30,7 @@ A autenticação se dá por meio de tokens JWT.
 
 # 2) Diagrama de classes e relacionamentos
 
-Vide arquivo. no repositório.
+Vide arquivo no repositório.
 
 # 3) Bibliotecas Gráfica
 
