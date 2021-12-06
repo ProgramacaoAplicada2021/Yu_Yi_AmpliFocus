@@ -1,8 +1,6 @@
 # Yu_Yi_AmpliFocus
 
-AmpliFocus é um **programa de foco e produtividade**, mas também uma rede social voltada para aqueles que desejam amplificar seu progresso, através de comunidades engajadas e unidas.
-
-Compartilhe suas sessões de foco, dicas de produtividade, métodos de planejamento, resumos, templates e acompanhe seus colegas nessa jornada.
+AmpliFocus é um **programa de foco e produtividade**.
 
 Amplifique sua produtividade e alcance seus objetivos e metas mais rapidamente, sejam eles voltados para estudo, trabalho ou algum projeto pessoal.
 
@@ -10,27 +8,30 @@ Amplifique sua produtividade e alcance seus objetivos e metas mais rapidamente, 
 
 Vivemos num mundo que nos exige cada vez mais de formas cada vez mais rápidas. Com isso, sentimos uma necessidade de buscarmos maneiras de amplificar nossa produtividade diante de tantas distrações a alguns cliques de distância.
 
-Diversos são os livros de autoajuda, canais no YouTube, perfis no Instagram e no Facebook voltados para o compartilhamento de dicas de produtividade. No entanto, são justamente essas plataformas que tanto nos distraem hoje em dia.
+Assim, surge a ideia do **AmpliFocus**, um programa de produtividade, que ajuda o usuário a acompanhar suas tarefas pendentes.
 
-Assim, surge a ideia do **AmpliFocus**, um programa de produtividade, livre de distrações, que também é uma rede social. Nele, você impulsiona sua produtividade e compartilha seu progresso com seus amigos e colegas, garantido a motivação conjunta de todos.
-
-# Biblioteca Gráfica
+# Biblioteca Gráfica (Frontend)
 
 Para o desenvolvimento do frontend da plataforma foi escolhido o **ReactJS**. 
 
 ReactJS é uma das bibliotecas preferidas pelos desenvolvedores frontend, devido a sua flexibilidade, componentização e vasta comunidade. Plataformas como Facebook, Instagram e Reddit foram desenvolvidas com ReactJS.
 
+# Framework Backend
+
+Para o backend do projeto, foi escolhido o framework Django em python.
+
 # Principais Funcionalidades
 
-## Focus Sessions
+## Login e Signup
 
-- Realize sessões de foco (ex: pomodoro) livre de distrações e amplifique o seu foco.
-- Remova distrações, pausando notificações indesejadas durante suas sessões
+O programa fornece as funcionalidades de login e signup de modo que é criado um registro para cada usuário no banco de dados do backend.
 
-## Social Network
+## Autenticação JWT
 
-- Compartilhe com seus seguidores seu progresso diário!
-- Compartilhe dicas de estudo, foco e produtividade!
-- Compartilhe sessões de foco realizadas!
-- Convide seus amigos para focar junto com você!
-- Poste mensagens motivacionais para seus amigos!
+A autenticação dos usuário se dá por meio da utilização de tokens JWT
+
+## Armazenar tarefas
+
+Com o programa, é possível adicionar tarefas (Tasks) a serem cumpridas por cada usuário.
+Tais tarefas são armazenadas no backend do programa e são referenciadas para cada usuário.
+A autenticação se dá por meio de tokens JWT.
