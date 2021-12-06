@@ -34,7 +34,7 @@ A autenticação se dá por meio de tokens JWT.
 
 Vide arquivo no repositório.
 
-# 3) Bibliotecas Gráfica
+# 3) Bibliotecas Gráficas
 
 ## Frontend
 
@@ -42,7 +42,7 @@ Para o desenvolvimento do frontend da plataforma foi escolhido o **ReactJS**.
 
 ReactJS é uma das bibliotecas preferidas pelos desenvolvedores frontend, devido a sua flexibilidade, componentização e vasta comunidade. Plataformas como Facebook, Instagram e Reddit foram desenvolvidas com ReactJS.
 
-### Instalação frontend
+### Instalação Frontend
 
 É necessário ter instalado o NodeJs: <a href="https://nodejs.org/en/" target="_blank">https://nodejs.org/en/</a>
 
@@ -60,4 +60,24 @@ Por fim, para inicializar o frontend do projeto, rode:
 Para o backend do projeto, foi escolhido o framework **Django**.
 
 É disponibilizado, com o Django, interface gráfica de admin do projeto, para gerenciar usuários e tabelas do banco de dados.
+
+### Instalação Backend
+
+É necessário ter instalado o python/pip 3.9 no seu repositorio: <a href="https://docs.python.org/3.9/using/index.html" target="_blank">https://docs.python.org/3.9/using/index.html</a>
+
+
+Em seguida no diretório **/amplifocus/backend**, rode os seguintes comando:
+
+### `pip install pipenv`
+
+### `pipenv shell`
+
+Para instalar as dependências de python necessárias, rode:
+
+### `pip install -r "requirements.txt"`
+
+Por fim, para inicializar o frontend do projeto, rode:
+
+### `python manage.py runserver`
+
 
