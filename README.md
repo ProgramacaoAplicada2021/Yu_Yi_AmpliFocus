@@ -67,17 +67,13 @@ Para o backend do projeto, foi escolhido o framework **Django**.
 
 
 Em seguida no diretório **/amplifocus/backend**, rode os seguintes comando:
-
 ### `pip install pipenv`
 
 ### `pipenv shell`
 
-Para instalar as dependências de python necessárias, rode:
-
 ### `pip install -r "requirements.txt"`
 
 Por fim, para inicializar o frontend do projeto, rode:
-
 ### `python manage.py runserver`
 
 
