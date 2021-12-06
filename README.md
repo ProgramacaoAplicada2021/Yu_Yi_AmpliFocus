@@ -12,6 +12,22 @@ Vivemos num mundo que nos exige cada vez mais de formas cada vez mais rápidas. 
 
 Assim, surge a ideia do **AmpliFocus**, um programa de produtividade, que ajuda o usuário a acompanhar suas tarefas pendentes.
 
+## Principais Funcionalidades
+
+### Login e Signup
+
+O programa fornece as funcionalidades de login e signup de modo que é criado um registro para cada usuário no banco de dados do backend.
+
+### Autenticação JWT
+
+A autenticação dos usuário se dá por meio da utilização de tokens JWT
+
+### Armazenar tarefas 
+
+Com o programa, é possível adicionar e remover tarefas (Tasks) a serem cumpridas por cada usuário.
+Tais tarefas são armazenadas no backend do programa e são referenciadas para cada usuário.
+A autenticação se dá por meio de tokens JWT.
+
 # 2) Diagrama de classes e relacionamentos
 
 Vide arquivo. no repositório.
