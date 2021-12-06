@@ -4,6 +4,10 @@ AmpliFocus é um **programa de foco e produtividade**.
 
 Amplifique sua produtividade e alcance seus objetivos e metas mais rapidamente, sejam eles voltados para estudo, trabalho ou algum projeto pessoal.
 
+Vídeo demonstrativo:
+
+### `https://youtu.be/Ev0A8KpYCbA`
+
 # 1) Proposta de projeto
 
 ## Motivação
