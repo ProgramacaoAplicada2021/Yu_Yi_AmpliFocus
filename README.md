@@ -6,6 +6,8 @@ Amplifique sua produtividade e alcance seus objetivos e metas mais rapidamente, 
 
 ### Vídeo demonstrativo: <a href="https://youtu.be/Ev0A8KpYCbA" target="_blank">https://youtu.be/Ev0A8KpYCbA</a>
 
+### Link demonstrativo: <a href="https://bit.ly/3ppaJ8W" target="_blank">Clique Aqui!</a>
+
 # 1) Proposta de projeto
 
 ## Motivação
