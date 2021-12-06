@@ -42,7 +42,7 @@ ReactJS é uma das bibliotecas preferidas pelos desenvolvedores frontend, devido
 
 ## Framework Backend
 
-Para o backend do projeto, foi escolhido o framework Django em python.
+Para o backend do projeto, foi escolhido o framework **Django**.
 
 É disponibilizado, com o Django, interface gráfica de admin do projeto, para gerenciar usuários e tabelas do banco de dados.
 
