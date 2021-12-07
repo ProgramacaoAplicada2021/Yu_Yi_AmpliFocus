@@ -78,6 +78,6 @@ Em seguida no diretório **/amplifocus/backend**, rode os seguintes comando:
 Por fim, para inicializar o frontend do projeto, rode:
 ### `python manage.py runserver`
 
-# 4) Esboço do projeto
+# 4) Esboço GUI do projeto
 
 Vide arquivo no repositório: AmpliFocus_Esboço.pdf
